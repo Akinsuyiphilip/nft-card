@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Verydarkblue: hsl(217, 54%, 11%);
+  --Verydarkbluecard: hsl(216, 50%, 16%);
+  --Verydarkblueline: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+html,
+body {
+  background-color: var(--Verydarkblue);
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
+}
+
+.card-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem 0 0;
+}
+
+.card-component {
+  width: 20rem;
+  height: 32rem;
+  background: var(--Verydarkblueline);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 20px;
+  position: relative;
+}
+
+.top-img {
+  height: 16rem;
+  width: 18rem;
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  margin: 1rem 1rem 0;
+  border-radius: .9rem;
+}
+
+.stats {
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+}
+
+.stats .equi {
+  color: var(--White);
+  padding-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.stats .dit {
+  font-size: .9rem;
+  padding-top: .9rem;
+  color: var(--Softblue);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.stats .lerrr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: .999rem;
+  margin-bottom: 1rem;
+}
+
+.stats .img1 {
+  height: 1.2rem;
+  margin: .29rem 0 0 0;
+}
+
+.stats .img2 {
+  height: 1.2rem;
+  margin: .29rem 0 0 0;
+  padding-left: 7rem;
+}
+
+.stats .word {
+  color: var(--Cyan);
+  padding: .5rem;
+  font-size: .7rem;
+}
+
+.stats .dasy {
+  color: var(--Softblue);
+  padding: .5rem;
+  font-size: .7rem;
+}
+
+.las {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid var(--Softblue);
+  padding-top: 2rem;
+}
+
+.las img {
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+.las .last {
+  font-size: .78rem;
+  color: var(--Softblue);
+  padding: .3rem;
+  padding-left: .9rem;
+}
+
+.las span {
+  color: var(--White);
+}
+/*# sourceMappingURL=style.css.map */
